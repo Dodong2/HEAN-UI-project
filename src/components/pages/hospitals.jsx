@@ -5,12 +5,12 @@ import Host from "../images/Host.png";
 import Loc from "../images/loc.svg";
 import bell from "../images/bell.svg";
 
-const Hospitals = () => {
+const Hospitals = () => { 
   const [hospitalData, setHospitalData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
+  useEffect(() => {   
     document.title = "Hospitals | HEAN";
   }, []);
 
