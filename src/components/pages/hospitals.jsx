@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Host from "../images/Host.png";
 import Loc from "../images/loc.svg";
 import bell from "../images/bell.svg";
-
+    
 const Hospitals = () => { 
   const [hospitalData, setHospitalData] = useState([]);
   const [loading, setLoading] = useState(true);
