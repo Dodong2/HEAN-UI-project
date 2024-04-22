@@ -577,6 +577,7 @@ body {
   justify-content: start;
   align-items: center;
   gap: 10px;
+  padding-top: 20px;
 }
 
 .tag-name {
@@ -741,6 +742,26 @@ body {
   color: var(--white);
 }
 
+/* Phone-view */
+/* @media all and (max-width: 600px) {
+  .serv-offer .equip h1,
+  .serv-offer .doc h1,
+  .serv-offer .beds h1,
+  .serv-offer .rooms h1 {
+    font-size: clamp(20px, 4vw, 20px);
+    margin-top: 10px;
+  }
+
+  .serv-offer .equip p,
+  .serv-offer .doc p,
+  .serv-offer .beds p,
+  .serv-offer .rooms p {
+    font-size: clamp(10px, 4vw, 10px);
+    text-align: left;
+  }
+} */
+
+
 /*Phone*/
 @media only screen and (max-width: 767px) {
   .container {
@@ -828,11 +849,11 @@ body {
 
   /* Services */
   .serv-container {
-    height: 145vh;
+    height: 140svh;
     width: 100%;
   }
   .serv {
-    width: calc(100% - 10px);
+    width: calc(100% - 5px);
   }
 
   .serv-cont {
@@ -890,15 +911,15 @@ body {
   .serv-offer .doc h1,
   .serv-offer .beds h1,
   .serv-offer .rooms h1 {
-    font-size: clamp(13px, 4vw, 13px);
-    margin-top: 10px;
+    font-size: clamp(20px, 4vw, 20px);
+    margin-top: 15px;
   }
 
   .serv-offer .equip p,
   .serv-offer .doc p,
   .serv-offer .beds p,
   .serv-offer .rooms p {
-    font-size: clamp(7px, 4vw, 7px);
+    font-size: clamp(9px, 4vw, 9px);
     text-align: left;
   }
   .serv-offer .equip .equip-bg,
@@ -923,9 +944,5 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     width: 100%;
-  }
-  /* SignUp Button CSS */
-  .signUp-btn button {
-    font-size: clamp(15px, 8vw, 15px);
   }
 }
